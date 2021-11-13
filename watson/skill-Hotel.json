@@ -1,0 +1,2563 @@
+{
+  "intents": [
+    {
+      "intent": "almoço-jantar",
+      "examples": [
+        {
+          "text": "a janta começa que horas"
+        },
+        {
+          "text": "almoço tá incluso na diaria"
+        },
+        {
+          "text": "janta tá inclusa na diária"
+        },
+        {
+          "text": "o almoço é servido que horas"
+        },
+        {
+          "text": "qual o preço do kg do almoço"
+        },
+        {
+          "text": "serve janta"
+        },
+        {
+          "text": "tem muitas opções no cardápio"
+        },
+        {
+          "text": "tem restaurante no hotel"
+        }
+      ],
+      "description": "Perguntas sobre o almoço no hotel"
+    },
+    {
+      "intent": "alterar-reserva",
+      "examples": [
+        {
+          "text": "alterar a data de chegada no hotel"
+        },
+        {
+          "text": "alterar a data de saída do hotel"
+        },
+        {
+          "text": "alterar a data do checkin"
+        },
+        {
+          "text": "alterar a reserva"
+        },
+        {
+          "text": "altere"
+        },
+        {
+          "text": "mudar a data de saída do hotel"
+        },
+        {
+          "text": "mudar a reserva"
+        },
+        {
+          "text": "por favor, altere a reserva"
+        },
+        {
+          "text": "posso alterar a reserva"
+        },
+        {
+          "text": "quero ficar mais um dia no hotel"
+        },
+        {
+          "text": "quero mudar"
+        }
+      ],
+      "description": "intenção de alterar a reserva"
+    },
+    {
+      "intent": "cafe-da-manha",
+      "examples": [
+        {
+          "text": "o café começa que horas"
+        },
+        {
+          "text": "o café da manhã é variado"
+        },
+        {
+          "text": "o que é servido no café da manhã"
+        },
+        {
+          "text": "posso levar o café para o quarto"
+        },
+        {
+          "text": "quais opções no café da manhã"
+        },
+        {
+          "text": "Que horas serve o café da manhã"
+        },
+        {
+          "text": "que horas termina o café da manhã"
+        },
+        {
+          "text": "serve bolo no café"
+        },
+        {
+          "text": "serve frutas no café"
+        }
+      ],
+      "description": "Perguntas sobre o café da manhã"
+    },
+    {
+      "intent": "cancelar-reserva",
+      "examples": [
+        {
+          "text": "cancelamento é gratuito"
+        },
+        {
+          "text": "Desisti da hospedagem"
+        },
+        {
+          "text": "Pode cancelar"
+        },
+        {
+          "text": "por favor, cancele a reserva"
+        },
+        {
+          "text": "posso desistir da reserva sem custos?"
+        },
+        {
+          "text": "qual a política de cancelamento"
+        },
+        {
+          "text": "quero cancelar"
+        }
+      ],
+      "description": "Intenção para cancelar a reserva do quarto"
+    },
+    {
+      "intent": "confirmar-reserva",
+      "examples": [
+        {
+          "text": "confirmada a reserva"
+        },
+        {
+          "text": "isto mesmo"
+        },
+        {
+          "text": "pode confirmar"
+        },
+        {
+          "text": "pode confirmar a reserva"
+        },
+        {
+          "text": "pode fechar a compra"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "sim, confirmada"
+        },
+        {
+          "text": "tudo ok"
+        }
+      ],
+      "description": "Confirmar a reserva no hotel"
+    },
+    {
+      "intent": "consulta-reserva",
+      "examples": [
+        {
+          "text": "me fale sobre a minha hospedagem"
+        },
+        {
+          "text": "não estou lembrado da minha hospedagem"
+        },
+        {
+          "text": "posso conferir minha reserva"
+        },
+        {
+          "text": "Quais os dias da minha hospedagem?"
+        },
+        {
+          "text": "quantos dias irei ficar mesmo"
+        },
+        {
+          "text": "quantos dias vou ficar aí?"
+        },
+        {
+          "text": "que horas tenho que chegar no hotel mesmo?"
+        }
+      ],
+      "description": "Intenção de consultar os dados da hospedagem"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Você fala Inglês?"
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Você tem um nome?"
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "horário-funcionamento",
+      "examples": [
+        {
+          "text": "o hotel fecha em algum horário"
+        },
+        {
+          "text": "posso fazer o checkin antes do horário"
+        },
+        {
+          "text": "posso fazer o checkout mais tarde"
+        },
+        {
+          "text": "Qual o horário do checkin"
+        },
+        {
+          "text": "que horas começa o checkin"
+        },
+        {
+          "text": "que horas é o checkout"
+        }
+      ],
+      "description": "Perguntas sobre horários no hotel"
+    },
+    {
+      "intent": "localizacao",
+      "examples": [
+        {
+          "text": "o hotel fica longe do aeroporto"
+        },
+        {
+          "text": "onde está localizado o hotel?"
+        },
+        {
+          "text": "onde fica o hotel?"
+        },
+        {
+          "text": "perto do hotel é perigoso?"
+        },
+        {
+          "text": "qual a distância do hotel para o centro da cidade"
+        },
+        {
+          "text": "qual o endereço do hotel"
+        },
+        {
+          "text": "tem drogaria aí perto"
+        },
+        {
+          "text": "tem farmácia aí do lado"
+        },
+        {
+          "text": "tem lanchonetes na região?"
+        },
+        {
+          "text": "tem supermercado aí perto"
+        }
+      ],
+      "description": "Pedir informações sobre localização do hotel"
+    },
+    {
+      "intent": "reserva-quarto",
+      "examples": [
+        {
+          "text": "gostaria de hospedar no hotel"
+        },
+        {
+          "text": "gostaria de um quarto no hotel"
+        },
+        {
+          "text": "gostaria de um quarto para casal"
+        },
+        {
+          "text": "posso reservar um quarto"
+        },
+        {
+          "text": "quero reservar uma suíte"
+        },
+        {
+          "text": "quero um quarto para três pessoas"
+        },
+        {
+          "text": "vocês tem quartos disponíveis?"
+        },
+        {
+          "text": "vocês tem suítes disponíveis"
+        }
+      ],
+      "description": "Reserva de quarto no hotel"
+    },
+    {
+      "intent": "sobre-o-hotel",
+      "examples": [
+        {
+          "text": "aceita pets"
+        },
+        {
+          "text": "como é o hotel"
+        },
+        {
+          "text": "descreva o hotel por favor"
+        },
+        {
+          "text": "me fale sobre o hotel"
+        },
+        {
+          "text": "no hotel tem academia"
+        },
+        {
+          "text": "no hotel tem espaço kids"
+        },
+        {
+          "text": "o hotel tem salão de jogos"
+        },
+        {
+          "text": "O hotel tem wifi?"
+        },
+        {
+          "text": "o wifi pega no hotel todo?"
+        },
+        {
+          "text": "posso levar meu cachorro"
+        },
+        {
+          "text": "possui serviço de lavanderia"
+        },
+        {
+          "text": "tem espaço para jogos"
+        },
+        {
+          "text": "tem estacionamento"
+        },
+        {
+          "text": "tem piscina"
+        }
+      ],
+      "description": "Perguntas gerais sobre o hotel"
+    },
+    {
+      "intent": "sobre-o-quarto",
+      "examples": [
+        {
+          "text": "o quarto é acessível para deficiente"
+        },
+        {
+          "text": "o quarto é suite"
+        },
+        {
+          "text": "O quarto tem ar-condicionado"
+        },
+        {
+          "text": "o quarto tem vista para a floresta?"
+        },
+        {
+          "text": "pode me mostrar fotos do quarto?"
+        },
+        {
+          "text": "posso fumar no quarto"
+        },
+        {
+          "text": "quero ver fotos do quarto"
+        },
+        {
+          "text": "tem guarda roupas"
+        },
+        {
+          "text": "tem lugar para colocar a roupa"
+        },
+        {
+          "text": "Tem tv a cabo"
+        },
+        {
+          "text": "todos os quartos são suites?"
+        }
+      ],
+      "description": "Perguntas sobre o quarto. Todos os quartos serão iguais"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "atributos-hotel",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "academia",
+          "synonyms": [
+            "o hotel tem academia",
+            "possui academia",
+            "possui espaço para exercícios físicos",
+            "tem academia",
+            "tem como exercitar no hotel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "espaço kids",
+          "synonyms": [
+            "meu filho pode brincar aí em algum lugar",
+            "onde posso deixar meu filho brincando",
+            "possui espaço infantil",
+            "possui espaço kids",
+            "possui lugar para as crianças brincarem",
+            "tem espaço para crianças"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "estacionamento",
+          "synonyms": [
+            "o hotel tem espaço para carros",
+            "onde posso deixar meu carro",
+            "possui estacionamento",
+            "tem lugar para deixar o carro",
+            "tem manobrista",
+            "tenho que deixar meu carro na rua?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pets",
+          "synonyms": [
+            "aceita animais",
+            "aceita cachorro",
+            "aceita pets",
+            "animais são permitidos",
+            "posso levar meu cachorro",
+            "posso levar meu gato",
+            "posso levar um pet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "piscina",
+          "synonyms": [
+            "a piscina é aquecida",
+            "a piscina é funda",
+            "tem piscina",
+            "tem piscina para crianças"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "salão de jogos",
+          "synonyms": [
+            "possui mesa de baralho",
+            "tem lugar para jogar baralho",
+            "tem mesa de ping-pong",
+            "tem mesa de sinuca",
+            "tem pebolim",
+            "tem salão de jogos",
+            "tem sinuca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sobre o hotel",
+          "synonyms": [
+            "como é o hotel",
+            "estou em dúvidas sobre o hotel",
+            "me fale sobre o hotel",
+            "o hotel é bom?",
+            "o que tem no hotel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wifi",
+          "synonyms": [
+            "a internet é rápida",
+            "internet funciona",
+            "o wifi pega no hotel todo",
+            "o wifi pega nos quartos",
+            "tem internet",
+            "tem wifi",
+            "tem wifi no hotel"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "atributos-quarto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ar-condicionado",
+          "synonyms": [
+            "aquecedor no quarto",
+            "quarto tem aquecedor",
+            "quarto tem ar?",
+            "quarto tem ar condicionado",
+            "tem aquecedor no quarto",
+            "tem ar condicionado e aquecedor",
+            "tem ar condicionado no quarto",
+            "tem ar no quarto?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "deficiente",
+          "synonyms": [
+            "o quarto suporta pessoas com dificuldade de locomoção",
+            "quarto é acessível",
+            "quarto é acessível para deficiente",
+            "quarto está preparado para deficientes físicos?",
+            "quarto tem acessibilidade",
+            "tem quarto para deficientes?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fotos do quarto",
+          "synonyms": [
+            "alguma foto do quarto?",
+            "gostaria de ver fotos do quarto",
+            "me mostre fotos do quarto por favor",
+            "quero fotos do quarto",
+            "tem fotos do quarto?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fumar",
+          "synonyms": [
+            "é permitido fumantes no quarto?",
+            "posso fumar no quarto?",
+            "tem quarto para fumantes?",
+            "vocês aceitam fumar no quarto?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "guarda-roupas",
+          "synonyms": [
+            "onde coloco minha roupa no quarto",
+            "o quarto possui guarda-roupas",
+            "tem guarda-roupas no quarto",
+            "tem lugar para colocar a roupa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sobre-o-quarto",
+          "synonyms": [
+            "como é o quarto",
+            "me fale sobre o quarto",
+            "o quarto é bom?",
+            "o quarto é grande?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suite",
+          "synonyms": [
+            "quarto é suite?",
+            "quarto tem banheiro privativo",
+            "tem banheiro no quarto?",
+            "todos os quartos são suite?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tv a cabo",
+          "synonyms": [
+            "tem tv a cabo no quarto",
+            "tem tv no quarto",
+            "tv no quarto",
+            "tv paga"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vista do quarto",
+          "synonyms": [
+            "dá pra ver a floresta do quarto",
+            "o quarto tem uma vista bonita",
+            "tem vista para a floresta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "confirma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancelamento",
+          "synonyms": [
+            "cancele",
+            "confirmo",
+            "por favor",
+            "por favor cancele",
+            "quero",
+            "quero cancelar",
+            "sim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fotos",
+          "synonyms": [
+            "claro",
+            "desejo ver",
+            "me mostre as fotos",
+            "obvio",
+            "pode mostrar",
+            "por favor",
+            "quero",
+            "quero sim",
+            "sim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "desistir",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancelamento",
+          "synonyms": [
+            "desisti",
+            "irei pensar e retorno",
+            "não",
+            "não cancele",
+            "não quero cancelar",
+            "não vou cancelar",
+            "quero não",
+            "vou pensar mais um pouco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "não quero passar nome",
+          "synonyms": [
+            "não quero passar meu nome",
+            "não vou falar meu nome",
+            "não vou falar o nome pra você",
+            "não vou te passar meu nome",
+            "siga sem meu nome"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "não quero ver as fotos",
+          "synonyms": [
+            "claro que não",
+            "não",
+            "não me mostre",
+            "não obrigado",
+            "não precisa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "recusar-reserva",
+          "synonyms": [
+            "claro que não",
+            "desejo alterar",
+            "não"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "forma-pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boleto bancário",
+          "synonyms": [
+            "boleto",
+            "no boleto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartão de crédito",
+          "synonyms": [
+            "crédito",
+            "dividido",
+            "dividir",
+            "no crédito",
+            "parcelado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cartão de débito",
+          "synonyms": [
+            "débito",
+            "no débito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "numero-hospedes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "1 pessoa somente",
+            "quarto com uma cama",
+            "quarto para 1 pessoa",
+            "quarto só pra mim",
+            "só pra mim",
+            "um cama de solteiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "casal",
+            "duas pessoas",
+            "quarto com cama de casal",
+            "quarto com duas camas de solteiro",
+            "quarto para casal",
+            "quarto para duas pessoas",
+            "vamos em dois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "eu e mais dois",
+            "quarto para casal e uma criança",
+            "quarto para três",
+            "quarto para três pessoas",
+            "três",
+            "três pessoas",
+            "vou eu e mais duas pessoas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "eu e mais três",
+            "eu, meu esposo e dois filhos",
+            "eu, minha esposa e dois filhos",
+            "quarto para 4 pessoas",
+            "quarto para quatro",
+            "quatro pessoas",
+            "um casal e dois filhos",
+            "um casal e duas crianças"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else && @desistir != 'não quero ver as fotos' && @desistir != 'cancelamento' && @desistir != 'recusar-reserva'",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_18_1540565717367"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1540472940496",
+      "context": {},
+      "metadata": {},
+      "conditions": "$nome",
+      "event_name": "input",
+      "dialog_node": "handler_10_1540472940496"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1540476292868",
+      "context": {
+        "data_saida": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_10_1540476292868"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1540472940496",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1540472940496",
+      "previous_sibling": "handler_10_1540472940496"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual a data de saída?"
+      },
+      "parent": "slot_9_1540476292868",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1540476292868",
+      "previous_sibling": "handler_10_1540476292868"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Quarto para $numero_hospedes então."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1540476183756",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1540476538065",
+      "previous_sibling": "handler_4_1540476183756"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, informe o número de pessoas que irão se hospedar?",
+            "Desculpe, não entendi. Pode me informar quantas pessoas irão se hospedar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1540476183756",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_16_1540476711476",
+      "previous_sibling": "handler_18_1540476965776"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpa, mas temos quartos para 1 até 4 pessoas. Pode me informar o número de hospedes por favor?",
+            "Infelizmente não temos quartos para @sys-number. Nossos quartos comportam entre 1 e 4 pessoas."
+          ]
+        }
+      },
+      "parent": "slot_3_1540476183756",
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_18_1540476965776",
+      "previous_sibling": "handler_12_1540476538065"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1540482893092",
+      "context": {
+        "forma_pagamento": "@forma-pagamento"
+      },
+      "metadata": {},
+      "conditions": "@forma-pagamento",
+      "event_name": "input",
+      "dialog_node": "handler_21_1540482893092",
+      "previous_sibling": "handler_22_1540482893092"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual a forma de pagamento?"
+      },
+      "parent": "slot_20_1540482893092",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_22_1540482893092"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Forma de pagamento não aceita. Aceitamos apenas pagamentos no cartão de crédito, débito ou no boleto bancário"
+          ]
+        }
+      },
+      "parent": "slot_20_1540482893092",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_31_1540484123874",
+      "previous_sibling": "handler_21_1540482893092"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1540471786498",
+      "event_name": "input",
+      "dialog_node": "handler_3_1540471786498"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_36_1540486918763",
+      "context": {
+        "parcelas": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_37_1540486918763",
+      "previous_sibling": "handler_38_1540486918763"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Parcelamos em até 6x sem juros. Deseja parcelar em quantas vezes?"
+      },
+      "parent": "slot_36_1540486918763",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_38_1540486918763"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1540471786498",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1540471786498",
+      "previous_sibling": "handler_3_1540471786498"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1540476183756",
+      "context": {
+        "numero_hospedes": "@numero-hospedes"
+      },
+      "metadata": {},
+      "conditions": "@numero-hospedes",
+      "event_name": "input",
+      "dialog_node": "handler_4_1540476183756",
+      "previous_sibling": "handler_5_1540476183756"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, entre o número de parcelas."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_36_1540486918763",
+      "event_name": "nomatch",
+      "dialog_node": "handler_44_1540486963479",
+      "previous_sibling": "handler_37_1540486918763"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o número de hospedes no quarto?"
+      },
+      "parent": "slot_3_1540476183756",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1540476183756"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1540476267615",
+      "context": {
+        "data_entrada": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1540476267615"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual a data de entrada no hotel?"
+      },
+      "parent": "slot_6_1540476267615",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1540476267615",
+      "previous_sibling": "handler_7_1540476267615"
+    },
+    {
+      "type": "standard",
+      "title": "estacionamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estacionamento gratuito e privativo disponível no local (não necessita de reserva)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:estacionamento",
+      "dialog_node": "node_10_1540563506770",
+      "previous_sibling": "node_9_1540562845486"
+    },
+    {
+      "type": "standard",
+      "title": "piscina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos uma piscina coberta aquecida que pode ser utilizada entre 6 da manhã à meia noite."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:piscina",
+      "dialog_node": "node_11_1540564162997",
+      "previous_sibling": "node_10_1540563506770"
+    },
+    {
+      "type": "standard",
+      "title": "recusa-confirmar",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1540474239992",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_47_1540488363580"
+      },
+      "conditions": "@desistir:recusar-reserva",
+      "dialog_node": "node_11_1540598287256",
+      "previous_sibling": "node_19_1540482526340"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom dia. Sou o assistente virtual do Hotel Watson. Qual o seu nome?"
+              },
+              {
+                "text": "Bom dia. Seja bem vindo ao Hotel Watson. Como posso te chamar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "metadata": {},
+      "conditions": "now().before('12:00:00')",
+      "dialog_node": "node_1_1540471786425",
+      "previous_sibling": "node_8_1540472897166"
+    },
+    {
+      "type": "frame",
+      "title": "reserva-quarto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Então você quer um quarto para $numero_hospedes com entrada no dia $data_entrada e saída no dia $data_saida. Isto mesmo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#reserva-quarto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1540474239992",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bem-vindo",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "confirma-cancelamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua reserva está cancelada. Esperamos te receber em uma próxima oportunidade."
+              },
+              {
+                "text": "Já cancelei sua reserva. Esperamos te receber em breve."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_53_1540559141884",
+      "context": {
+        "parcelas": null,
+        "data_saida": null,
+        "data_entrada": null,
+        "forma_pagamento": null,
+        "numero_hospedes": null
+      },
+      "metadata": {},
+      "conditions": "@confirma:cancelamento",
+      "dialog_node": "node_1_1540559604950"
+    },
+    {
+      "type": "standard",
+      "title": "acessibilidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Hotel possui apartamentos adaptados com barras de segurança, cadeiras de rodas, cadeiras de banho e outros equipamentos para atender as necessidade de cada cliente. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:deficiente",
+      "dialog_node": "node_1_1540574839381",
+      "previous_sibling": "node_29_1540571901059"
+    },
+    {
+      "type": "standard",
+      "title": "nao-passar-nome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Irei te chamar de $nome durante nossas interações por aqui."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "context": {
+        "nome": "hóspede"
+      },
+      "metadata": {},
+      "conditions": "@desistir:(não quero passar nome)",
+      "dialog_node": "node_1_1540599395715"
+    },
+    {
+      "type": "standard",
+      "title": "cafe-da-manha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos um buffet de café da manhã incluso na diária contando também com um cardápio kids."
+              },
+              {
+                "text": "Temos um amplo café da manhã com cardápio variado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cafe-da-manha",
+      "dialog_node": "node_12_1540564443477",
+      "previous_sibling": "node_3_1540560432695"
+    },
+    {
+      "type": "standard",
+      "title": "almoco-janta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso restaurante serve o almoço e jantar a R$ 69,00 reais o kg. Temos um cardápio com opções do Menu Principal; Menu Linha Saudável; Menu Kids; Menu Baby."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#almoço-jantar",
+      "dialog_node": "node_13_1540564711611",
+      "previous_sibling": "node_12_1540564443477"
+    },
+    {
+      "type": "standard",
+      "title": "horário-almoço-janta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O almoço é servido entre 11 e 14 horas. A janta é servida entre 19 e 21 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1540564711611",
+      "metadata": {},
+      "conditions": "@sys-date",
+      "dialog_node": "node_14_1540564924767"
+    },
+    {
+      "type": "standard",
+      "title": "sobre-o-atendente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me chamo Virtual Watson, seu assistente virtual para te auxiliar na reserva do seu quarto no Hotel Watson."
+              },
+              {
+                "text": "Meu nome é Virtual Watson. Estou aqui para te ajudar na reserva do seu quarto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_About_You",
+      "dialog_node": "node_15_1540565221471",
+      "previous_sibling": "node_13_1540564711611"
+    },
+    {
+      "type": "standard",
+      "title": "humano-ou-robo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sou o Virtual Watson, seu assistente virtual desenvolvido para te auxiliar na reserva do quarto no Hotel Watson."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_16_1540565454249",
+      "previous_sibling": "node_15_1540565221471"
+    },
+    {
+      "type": "standard",
+      "title": "ajuda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estou aqui para te ajudar. O que posso fazer por você hoje $nome?"
+              },
+              {
+                "text": "Estou aqui para te auxiliar na reserva do seu quarto $nome."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities && #General_Greetings",
+      "dialog_node": "node_17_1540565557120",
+      "previous_sibling": "node_16_1540565454249"
+    },
+    {
+      "type": "standard",
+      "title": "finalizar a conversa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais. Espero você em uma próxima oportunidade. Hotel Watson agradece."
+              },
+              {
+                "text": "Até breve. Ficamos felizes com o seu contato. Hotel Watson agradece."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "nome": null,
+        "parcelas": null,
+        "data_saida": null,
+        "valor_total": null,
+        "data_entrada": null,
+        "data_saida_temp": null,
+        "forma_pagamento": null,
+        "numero_hospedes": null,
+        "data_entrada_temp": null
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1540565717367",
+      "previous_sibling": "node_24_1540566812749"
+    },
+    {
+      "type": "frame",
+      "title": "pagamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem! A forma de pagamento será no $forma_pagamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1540474239992",
+      "context": {
+        "data_saida_temp": "<?new Date($data_saida.reformatDateTime('yyyy/MM/dd')).getTime()?>",
+        "data_entrada_temp": "<?new Date($data_entrada.reformatDateTime('yyyy/MM/dd')).getTime()?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#confirmar-reserva",
+      "dialog_node": "node_19_1540482526340",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "falar com humano",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro irei te transferir para um dos nossos consultores."
+              },
+              {
+                "text": "Ok. Irei te transferir para um de nossos consultores."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1540565717367"
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_19_1540565954158",
+      "previous_sibling": "node_17_1540565557120"
+    },
+    {
+      "type": "standard",
+      "title": "desistir-cancelamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que você não vai cancelar. Te esperamos aqui no nosso hotel!"
+              },
+              {
+                "text": "Ótimo. Vamos fazer o possível para ter uma ótima experiência no nosso hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_53_1540559141884",
+      "metadata": {},
+      "conditions": "@desistir:cancelamento",
+      "dialog_node": "node_2_1540559864883",
+      "previous_sibling": "node_1_1540559604950"
+    },
+    {
+      "type": "standard",
+      "title": "ar-condicionado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos os quartos são equipados com um ar-condicionado e um aquecedor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:ar-condicionado",
+      "dialog_node": "node_2_1540574984300",
+      "previous_sibling": "node_1_1540574839381"
+    },
+    {
+      "type": "standard",
+      "title": "localizacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O hotel está situado em Gramado-RS a 6 km do Aspen Mountain e a 1,2 km do centro da cidade"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#localizacao",
+      "dialog_node": "node_22_1540566598148",
+      "previous_sibling": "node_19_1540565954158"
+    },
+    {
+      "type": "standard",
+      "title": "horario-funcionamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O check-in inicia às 14 horas. O check-out é realizado até meio dia. A recepção fica aberta 24 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#horário-funcionamento",
+      "dialog_node": "node_24_1540566812749",
+      "previous_sibling": "node_22_1540566598148"
+    },
+    {
+      "type": "standard",
+      "title": "sobre-o-quarto",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#sobre-o-quarto",
+      "dialog_node": "node_25_1540567007560",
+      "previous_sibling": "node_53_1540559141884"
+    },
+    {
+      "type": "standard",
+      "title": "fumar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não é permitido fumar nas dependências do hotel."
+              },
+              {
+                "text": "Não é permitido fumar em nenhum lugar do hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:fumar",
+      "dialog_node": "node_26_1540570221297"
+    },
+    {
+      "type": "standard",
+      "title": "guarda-roupas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos os quartos possuem guarda-roupas."
+              },
+              {
+                "text": "Os quartos possuem um amplo guarda-roupas para você e sua família."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:guarda-roupas",
+      "dialog_node": "node_27_1540571715187",
+      "previous_sibling": "node_26_1540570221297"
+    },
+    {
+      "type": "standard",
+      "title": "tv-a-cabo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tem tv a cabo em todos os quartos com 84 canais."
+              },
+              {
+                "text": "Todos os quartos possuem tv fechada com 84 canais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:(tv a cabo)",
+      "dialog_node": "node_28_1540571770019",
+      "previous_sibling": "node_27_1540571715187"
+    },
+    {
+      "type": "standard",
+      "title": "vista-do-quarto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O quarto possui vista frontal para um dos mais belos cenários da cidade, o Vale do Quilombo. Veja que vista linda!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://r-ec.bstatic.com/images/hotel/max1024x768/158/158730592.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:(vista do quarto)",
+      "dialog_node": "node_29_1540571901059",
+      "previous_sibling": "node_28_1540571770019"
+    },
+    {
+      "type": "standard",
+      "title": "sobre-o-hotel",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#sobre-o-hotel",
+      "dialog_node": "node_3_1540560432695",
+      "previous_sibling": "node_25_1540567007560"
+    },
+    {
+      "type": "standard",
+      "title": "suite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos os quartos possuem um banheiro privativo e uma banheira de hidromassagem com cromoterapia para duas pessoas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:suite",
+      "dialog_node": "node_3_1540575078669",
+      "previous_sibling": "node_2_1540574984300"
+    },
+    {
+      "type": "frame",
+      "title": "credito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pagamento no crédito em $parcelas vezes. Iremos te direcionar para página de pagamento. O valor total é R$ $valor_total e cada parcela irá ficar R$ <? $valor_total / $parcelas ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1540482526340",
+      "context": {
+        "valor_total": "<? ($data_saida_temp - $data_entrada_temp) / (24*60*60*1000L) *  500 ?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1540565717367"
+      },
+      "conditions": "@forma-pagamento:(cartão de crédito)",
+      "dialog_node": "node_35_1540486826690",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "wifi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos sim wifi. Oferecemos internet gratuita em todo o hotel."
+              },
+              {
+                "text": "O hotel possui wifi gratuito em todo o hotel."
+              },
+              {
+                "text": "Temos wifi disponível em todo o hotel"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:wifi",
+      "dialog_node": "node_4_1540560855423"
+    },
+    {
+      "type": "standard",
+      "title": "fotos",
+      "output": {
+        "generic": [
+          {
+            "title": "Fachada do hotel",
+            "source": "https://r-ec.bstatic.com/xdata/images/xphoto/max1024x768/7411772.jpg?k=2ee98c6fe01e6aed39ad29986b8fc9423b3164c3945f7ac32e3f921016628adb&o=",
+            "response_type": "image"
+          },
+          {
+            "title": "Quarto",
+            "source": "https://www.toriba.com.br/img/acomodacoes/qtos-vista-bosque/vista-bosque-apto103_hotel_em_campos_do_jordao.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Banheira no quarto com uma bela vista!",
+            "source": "https://cdn.guiadecamposdojordao.com.br/imgs/20170808171328/hotel_serra_estrela_campos_do_jordao.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:(fotos do quarto)",
+      "dialog_node": "node_4_1540575168606",
+      "previous_sibling": "node_3_1540575078669"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O pagamento será à vista no $forma_pagamento. Iremos te direcionar para a página de pagamento. O valor total é R$ <? ($data_saida_temp - $data_entrada_temp) / (24*60*60*1000L) *  500 ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1540482526340",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1540565717367"
+      },
+      "conditions": "true",
+      "dialog_node": "node_46_1540487515300",
+      "previous_sibling": "node_35_1540486826690"
+    },
+    {
+      "type": "standard",
+      "title": "alterar-quarto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Iremos reiniciar seu processo de reserva do quarto."
+              },
+              {
+                "text": "Tudo bem. Vamos começar novamente seu processo de reserva."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "parcelas": null,
+        "data_saida": null,
+        "data_entrada": null,
+        "forma_pagamento": null,
+        "numero_hospedes": null
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1540474239992"
+      },
+      "conditions": "#alterar-reserva",
+      "dialog_node": "node_47_1540488363580",
+      "previous_sibling": "node_1_1540474239992"
+    },
+    {
+      "type": "standard",
+      "title": "sobre-hotel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Hotel Watson está situado em Gramados. A propriedade oferece quartos com Wi-Fi gratuito e vista panorâmica do Vale do Quilombo, além de restaurante que serve pratos da culinária regional.\n\nAs acomodações do Hotel Watson são bem iluminadas e têm móveis modernos, ar-condicionado, TV e banheiro privativo. \n\nVocê pode dar um mergulho na piscina coberta e jogar uma partida de bilhar no salão de jogos. O hotel também conta com academia e parquinho infantil.\n\nA propriedade está localizada a 6 km do Aspen Mountain e a 1,2 km do centro da cidade. Para sua comodidade, o hotel oferece serviço de recepção 24 horas e estacionamento privativo gratuito no local. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:(sobre o hotel)",
+      "dialog_node": "node_5_1540561883387",
+      "previous_sibling": "node_4_1540560855423"
+    },
+    {
+      "type": "standard",
+      "title": "sobre-o-quarto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Amplo e confortável, o quarto possui entre 56m² e 68m² e oferece 11 m de vista frontal para um dos mais belos cenários da cidade, o Vale do Quilombo. Acomoda confortavelmente até 4 pessoas (2 adultos e 2 crianças) em dois ambientes. Está equipada com Tv de Led 42 na suíte e de 32 na sala de estar, calefação, ar condicionado, telefone, frigobar, cofre, jarra elétrica, secador de cabelos e acesso a internet. A banheira de hidromassagem com cromoterapia para duas pessoas e a cama King Size para o casal tornam o ambiente romântico e acolhedor."
+              },
+              {
+                "text": "Deseja ver fotos do quarto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1540567007560",
+      "metadata": {},
+      "conditions": "@atributos-quarto:sobre-o-quarto",
+      "dialog_node": "node_5_1540575629482",
+      "previous_sibling": "node_4_1540575168606"
+    },
+    {
+      "type": "standard",
+      "title": "cancelar-reserva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que pena. Quer mesmo cancelar sua reserva?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cancelar-reserva",
+      "dialog_node": "node_53_1540559141884",
+      "previous_sibling": "node_47_1540488363580"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa tarde. Sou o assistente virtual do Hotel Watson. Qual o seu nome?"
+              },
+              {
+                "text": "Boa tarde. Seja bem vindo ao Hotel Watson. Como posso te chamar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('18:00:00')",
+      "dialog_node": "node_6_1540471885800",
+      "previous_sibling": "node_1_1540471786425"
+    },
+    {
+      "type": "standard",
+      "title": "pets",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente não aceitamos animais."
+              },
+              {
+                "text": "O hotel não aceita animais. :/"
+              },
+              {
+                "text": "Não aceitamos animais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:pets",
+      "dialog_node": "node_6_1540562028780",
+      "previous_sibling": "node_5_1540561883387"
+    },
+    {
+      "type": "standard",
+      "title": "mostrar-fotos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1540575629482",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1540575168606"
+      },
+      "conditions": "@confirma:fotos",
+      "dialog_node": "node_6_1540575723311"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa noite. Sou o assistente virtual do Hotel Watson. Qual o seu nome?"
+              },
+              {
+                "text": "Boa noite. Seja bem vindo ao Hotel Watson. Como posso te chamar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "metadata": {},
+      "conditions": "now().after('18:00:00')",
+      "dialog_node": "node_7_1540471940456",
+      "previous_sibling": "node_6_1540471885800"
+    },
+    {
+      "type": "standard",
+      "title": "academia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O hotel possui uma ampla academia com aparelhos novos e modernos. A academia abre às 06 horas e fecha as 23 horas."
+              },
+              {
+                "text": "O hotel possui academia no primeiro piso. O horário de funcionamento é das 06 às 23 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:academia",
+      "dialog_node": "node_7_1540562392696",
+      "previous_sibling": "node_6_1540562028780"
+    },
+    {
+      "type": "standard",
+      "title": "nao-mostrar-fotos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem."
+              },
+              {
+                "text": "Ok."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1540575629482",
+      "metadata": {},
+      "conditions": "@desistir:(não quero ver as fotos)",
+      "dialog_node": "node_7_1540576008110",
+      "previous_sibling": "node_6_1540575723311"
+    },
+    {
+      "type": "standard",
+      "title": "nome-cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá $nome. Em que posso te ajudar?"
+              },
+              {
+                "text": "$nome, em que posso te auxiliar hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "context": {
+        "nome": "<?input.text?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1540472897166",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1540599395715"
+    },
+    {
+      "type": "standard",
+      "title": "espaco-kids",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos um enorme parquinho infantil disponível no hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:(espaço kids)",
+      "dialog_node": "node_8_1540562625738",
+      "previous_sibling": "node_7_1540562392696"
+    },
+    {
+      "type": "standard",
+      "title": "salao-de-jogos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos uma excelente sala de jogos com mesa de bilhar, mesa de ping-pong e mesa para carteado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1540560432695",
+      "metadata": {},
+      "conditions": "@atributos-hotel:(salão de jogos)",
+      "dialog_node": "node_9_1540562845486",
+      "previous_sibling": "node_8_1540562625738"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1540482526340",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$forma_pagamento",
+      "dialog_node": "slot_20_1540482893092",
+      "previous_sibling": "node_46_1540487515300"
+    },
+    {
+      "type": "slot",
+      "parent": "Bem-vindo",
+      "dialog_node": "slot_2_1540471786498",
+      "previous_sibling": "node_7_1540471940456"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1540474239992",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$numero_hospedes",
+      "dialog_node": "slot_3_1540476183756",
+      "previous_sibling": "node_11_1540598287256"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_35_1540486826690",
+      "metadata": {},
+      "variable": "$parcelas",
+      "dialog_node": "slot_36_1540486918763"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1540474239992",
+      "metadata": {},
+      "variable": "$data_entrada",
+      "dialog_node": "slot_6_1540476267615",
+      "previous_sibling": "slot_3_1540476183756"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1540472897166",
+      "metadata": {},
+      "dialog_node": "slot_9_1540472940496"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1540474239992",
+      "metadata": {},
+      "variable": "$data_saida",
+      "dialog_node": "slot_9_1540476292868",
+      "previous_sibling": "slot_6_1540476267615"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Restaurante",
+  "language": "pt-br",
+  "description": "Reservas em restaurante"
+}
